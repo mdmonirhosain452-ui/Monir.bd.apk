@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileShare - Professional File Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FileShare</h1>
+        <button id="admin-btn">Admin Login</button>
+    </header>
+    
+    <main>
+        <section id="admin-section" class="hidden">
+            <h2>Admin Upload</h2>
+            <form id="upload-form">
+                <input type="file" id="file-input" accept=".apk,.pdf,.zip,.mp4,.mp3,.jpg,.jpeg,.png" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        
+        <section id="files-section">
+            <h2>Available Files</h2>
+            <div id="files-grid" class="grid"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>ওয়েবসাইট এডমিন মোঃ মনির হোসেন</p>
+        <p>কন্টাক্ট: 01885161490</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
